@@ -101,5 +101,5 @@ dice-roller/
 
 # Contact
 - Contact: 9696481593
-- Gmail: abhishek184april.gmail.com
+- Gmail: abhishek184april@gmail.com
 - LinkedIn: https://www.linkedin.com/in/abhishek-singh-38b2bb1b9
