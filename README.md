@@ -2,9 +2,23 @@
 - This Java application processes dice roll expressions from an input file and outputs the results as a JSON file.
 - It supports standard polyhedral dice with various sides (e.g., d4, d6, d8, d10, d12, d20) and allows combinations of dice rolls, addition, subtraction, and integer modifiers.
 
-# Features
+
+  # Table Of Contents
+ * 1. Features
+ * 2. Languages
+ * 3. Project Structure
+ * 4. Usage
+ * 5. Input Format
+ * 6. Output Format
+ * 7. How To Run Application
+ * 8. Troubleshooting
+ * 10. Contact
+
+
+ # Features
 - Dice Roll Evaluation: Supports expressions like 2d6 + d8 + 4 or D20 - 1 + 4d12.
-- JSON Output: Outputs results with the calculated roll, minimum possible result, and maximum possible result.
+- JSON Output: Outputs results with the calculated roll, minimum possible result, and maximum possible result
+      
 
  # Languages: 
  - Java
@@ -29,15 +43,25 @@ dice-roller/
 ├── pom.xml
 └── README.md
 
-# Input file 
+# Usage
+
+ * Run the program by providing the input file as the first argument.
+ * Optionally, specify an output file as the second argument.
+ * java -jar target/dice-roll-parser.jar input.txt 
+ * Optionally, specify an output file:
+ * java -jar target/dice-roll-parser.jar input.txt output.json
+
+# Input Formate
 - input.txt
 - (pass input value like that
 -  2d6 + d8 + 4
   D20 - 1 + 4d12
-  3d4 + 2d6 - 5
 )
-# Output File
+# Output Formate
 -  output.json
+-  Output will get like that: {"rollResult":25,
+-  "rollMin":17,
+-  "rollMax":47}
   
 
 # How to Run the Application
@@ -74,3 +98,8 @@ dice-roller/
 # Troubleshooting
 - Ensure the paths are correct: Verify that input.txt is in the correct directory and specified correctly in program arguments.
 - Check file permissions: Make sure the application has read access to input.txt and write access to output.json .
+
+# Contact
+- Contact: 9696481593
+- Gmail: abhishek184april.gmail.com
+- LinkedIn: https://www.linkedin.com/in/abhishek-singh-38b2bb1b9
